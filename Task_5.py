@@ -1,0 +1,6 @@
+Xa = int (input ("Input X coordinate of A"))
+Ya = int (input ("Input Y coordinate of A"))
+Xb = int (input ("Input X coordinate of B"))
+Yb = int (input ("Input Y coordinate of B"))
+S = round((((Xa - Xb)**2 + (Ya - Yb)**2)**0.5), 3)
+print (f'Distance equals {S}')
